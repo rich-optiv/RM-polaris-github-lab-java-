@@ -17,8 +17,8 @@ jobs:
         uses: blackduck-inc/black-duck-security-scan@v2.0.0
         with:
           ### SCANNING: Required fields
-          polaris_server_url: ${{ vars.POLARIS_SERVERURL }}
-          polaris_access_token: ${{ secrets.POLARIS_ACCESSTOKEN }}
+          polaris_server_url: https://polaris.blackduck.com
+          polaris_access_token: 6dkkt3o9el6slerruermokt51n02rt5mu6v441k0olv1pm4t5sc35dvs6ecl5f7ufql4kibr4mu0g
           polaris_assessment_types: "SCA,SAST"
           
           ### SCANNING: Optional fields
